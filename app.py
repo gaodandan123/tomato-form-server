@@ -23,7 +23,7 @@ def hello_world():
     session.close()
     data = {
         'code': 0,
-        'data': '',
+        'data': 'hello world',
         'message': '成功'
     }
     return jsonify(data)
